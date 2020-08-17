@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00527a;
+    padding-bottom: 100px;
+    color: white;
+}
+.header {
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #00527a;
+    color: #ffffff;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header div {
+    padding: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+} 
+
+.header h1 {
+    display: inline-flexbox;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+    list-style-position: inside;
+}
+
+/*Removed bullet points from navigation list + added spacing between*/
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around ;
+    text-decoration-color: blue;
+
+  }
+  /*Added flex properties*/
+.header div ul {
+    list-style-type: none;
+    padding: 0;
+    flex: 1 1 0;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.ul a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background-color: #777;
+}
+
+.ul a:hover {
+    background-color: #ffffff
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Wrapper vs Container https://css-tricks.com/best-way-implement-wrapper-css/*/
+.wrapper {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-image: url("");
+    background-size: cover;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 20px;
+    max-width: 960px;
+    
+}
+/* Added float properties*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-right: 25px;
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.benefits {
+    padding: 30px; 
+    position: -webkit-sticky;
+    margin: auto;
+    clear: both;
+    width: 90%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    }
+    
+/* Grouped for tidiness */
+.benefit-brand, .benefit-lead, .benefit-cost  {
+    margin-bottom: 50px;
+    text-align: center
+   
+}
+
+.benefit-lead h3, .benefit-cost h3, .benefit-brand h3 {
+    text-size-adjust: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img, .benefit-cost img, .benefit-brand img {
+    display: block;
+    margin: 5px auto;
+    max-width: 150px;
+}
+ 
+
+.search-engine-optimization, .social-media-marketing, .online-reputation-management {
+    overflow: auto;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    text-align: initial;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2, .social-media-marketing h2, .online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+
+/*Added opacity with a a fixed position*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: -100%;
+    width: 100%;
+    background-color: #0072bb;
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+  }
+
+.footer h2 {
+    font-size: 19px;
+}
