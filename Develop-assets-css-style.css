@@ -161,7 +161,7 @@ p {
     text-align: center;
 }
 
-/*Added opacity with a a fixed position*/
+/*Added a fixed position*/
 .footer {
     position: fixed;
     left: 0;
@@ -171,7 +171,6 @@ p {
     background-color: #0072bb;
     color: white;
     text-align: center;
-    opacity: 0.7;
   }
 
 .footer h2 {
