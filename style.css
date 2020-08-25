@@ -6,7 +6,7 @@ body {
     padding-bottom: 100px;
     color: white;
 }
-.header {
+header {
     padding: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #00527a;
@@ -15,18 +15,18 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
-.header div {
+header div {
     padding: 10px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 } 
-.header h1 {
+header h1 {
     display: inline-flexbox;
     font-size: 48px;
 }
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
     list-style-position: inside;
 }
