@@ -115,6 +115,7 @@ p {
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+    font: 100;
 }
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
