@@ -23,7 +23,7 @@ header div {
     font-size: 20px;
 } 
 header h1 {
-    display: inline-flexbox;
+    
     font-size: 48px;
 }
 header h1 .seo {
@@ -130,7 +130,7 @@ p {
     text-align: center
 }
 .benefit-lead h3, .benefit-cost h3, .benefit-brand h3 {
-    text-size-adjust: 50px;
+    text-size-adjust: 50%;
     margin-bottom: 10px;
     text-align: center;
 }
