@@ -1,4 +1,5 @@
 # HomeworkW1
+
 # User story 
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
