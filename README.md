@@ -30,11 +30,11 @@ SO THAT our own site is optimized for search engines
 * No licence due to nature of the product.
 
 ### Link to the App
-
-<a href=".">Link to the App</a><hr>
 <hr>
+<a href="https://github.com/Michaelmw17/HomeworkW1">Link to the App</a>
+<br/>
 
-## Authors
+### Authors
 
 * **Michael Watt**
 
