@@ -1,19 +1,51 @@
 # HomeworkW1
 
-# User story 
+This is a webpage meets accessibility standards made in Html and CSS .
+
+## Contents
+<p>
+The app is composed of 2 pages, index.html and style.css. It also has images in the img folder
+</p>
+
+## User Story
+<p>
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
-# Acceptance Criteria
+</p>
 
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+## Built With
+
+* [VScode](https://code.visualstudio.com/) - The editor of choice
+* [Terminal](https:///) - What would we do without our bash?
+
+#### Final Interface
+<hr>
+
+![Horiseon](./Images/Screen-Shot-2020-1.png)
+![Horiseon](./Images/Screen-Shot-2020-11.png)
+
+### Licence
+
+* No licence due to nature of the product.
+
+### Link to the App
+
+<a href=".">Link to the App</a><hr>
+<hr>
+
+## Authors
+
+* **FIRST LAST** 
+
+Michael Watt
+
+Contact information
+
+GitHub: [@Michaelmw17](https://github.com/Michaelmw17/w8homework)
+
+Email: Michaelmw17@outlook.com
+
+## Acknowledgments
+
+* Bootstrap

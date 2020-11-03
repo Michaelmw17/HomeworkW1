@@ -90,6 +90,7 @@ p {
     padding-bottom:25px;
     padding-left: 50px;
     padding-right: 50px;
+    align-self: center;
 }
 
 .benefits {
@@ -139,7 +140,7 @@ p {
     margin: 5px auto;
     max-width: 150px;
 }
-.footer {
+#footer {
     left: 0;
     bottom: 0;
     height: 100%;
