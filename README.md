@@ -36,9 +36,7 @@ SO THAT our own site is optimized for search engines
 
 ## Authors
 
-* **FIRST LAST** 
-
-Michael Watt
+* **Michael Watt**
 
 Contact information
 
